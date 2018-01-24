@@ -44,3 +44,4 @@ RUN pacman --needed --noconfirm -S fftw blas cblas lapack lapacke boost boost-li
 RUN pacman --needed --noconfirm -S cuda
 RUN pacman --needed --noconfirm -S ocl-icd opencl-headers opencl-nvidia
 RUN pacman --needed --noconfirm -S nvidia
+RUN pacman --needed --noconfirm -S glu
